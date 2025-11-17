@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Горы",
+    "image": "https://picsum.photos/id/1018/600/400"
+  },
+  {
+    "name": "Озеро",
+    "image": "https://picsum.photos/id/1015/600/400"
+  },
+  {
+    "name": "Озеро",
+    "image": "https://picsum.photos/id/1011/600/400"
+  },
+  {
+    "name": "Лес",
+    "image": "https://picsum.photos/id/1003/600/400"
+  },
+  {
+    "name": "Природа",
+    "image": "https://picsum.photos/id/1020/600/400"
+  }
+];

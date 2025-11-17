@@ -1,38 +1,41 @@
 
-/* PHONE CHECKER */
 
 .phone_block {
-    background: black;
-    padding: 100px 0;
+    background: rgb(39, 29, 43);         
+    padding: 100px 0;       
 }
+
 
 .inner_phone_block {
-    margin-top: 50px;
-    display: flex;
-    justify-content: space-evenly;
-    border: 1px solid var(--orange);
+    margin-top: 50px;           
+    display: flex;             
+    justify-content: space-evenly; 
+    border: 1px solid var(--orange); 
     height: 300px;
-    border-radius: 20px;
-    align-items: center;
+    border-radius: 20px;     
+    align-items: center;     
 }
+
 
 .form_phone {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: flex;           
+    flex-direction: column;     
+    align-items: center;      
 }
+
 
 .form_phone button {
-    width: 100%;
-    margin: 20px 0;
+    width: 100%;             
+    margin: 20px 0;         
 }
 
-/* TAB SLIDER */
+
 
 .tab_slider {
-    background: black;
+    background: rgb(39, 29, 43);
     padding: 100px 0;
 }
+
 
 .tab_content_block {
     width: 700px;
@@ -47,37 +50,42 @@
     height: 170px;
 }
 
+
 .tab_content_block p {
-    color: white;
+    color: rgb(230, 203, 236);
     margin-top: 10px;
-    text-align: justify;
+    text-align: justify;     
 }
+
 
 .tab_content_items {
     width: 400px;
     display: flex;
     flex-direction: column;
-    row-gap: 5px;
+    row-gap: 5px;           
 }
+
 
 .tab_content_item {
     padding: 10px;
     height: 30px;
-    color: white;
+    color: rgb(207, 152, 243);
     border: 1px solid var(--orange);
     text-align: center;
     font-size: 20px;
-    cursor: pointer;
+    cursor: pointer;            
     display: grid;
-    place-content: center;
+    place-content: center;    
 }
 
+
 .tab_content_item_active {
-    background: var(--orange);
-    color: black;
-    font-weight: 600;
-    border: 1px solid white;
+    background: var(--orange);  
+    color: rgb(17, 1, 20);              
+    font-weight: 600;      
+    border: 1px solid white;   
 }
+
 
 .tab_contents_block {
     display: flex;
@@ -86,12 +94,13 @@
     margin-top: 50px;
 }
 
-/*------CARD SWITCHER------*/
+
 
 .card_switcher {
-    background-color: black;
+    background-color: rgb(39, 29, 43);
     padding: 100px 0;
 }
+
 
 .card {
     width: 500px;
@@ -105,15 +114,18 @@
     padding: 10px;
 }
 
+
 .card p {
     color: var(--orange);
     font-size: 20px;
 }
 
+
 .card span {
-    color: white;
+    color: rgb(250, 168, 246);
     font-size: 30px;
 }
+
 
 .inner_card_switcher {
     margin-top: 50px;
@@ -123,43 +135,45 @@
 }
 
 
-/*-------CONVERTER--------*/
-
 
 .converter {
     padding: 100px 0;
-    background-color: black;
+    background-color: rgb(39, 29, 43);
 }
+
 
 .inner_converter {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
-    gap: 30px;
+    flex-direction: column;     
+    gap: 30px;                 
     margin-top: 50px;
 }
+
 
 .inner_converter > div {
     display: flex;
     flex-direction: column;
 }
 
-/*------WEATHER------*/
+
 
 .weather {
     padding: 100px 0;
-    background-color: black;
+    background-color: rgb(39, 29, 43);
 }
+
 
 .inner_weather > div {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 10px;
-    color: white;
+    color: rgb(230, 171, 241);
     font-size: 25px;
 }
+
 
 .inner_weather {
     display: flex;
@@ -167,6 +181,70 @@
     gap: 20px;
 }
 
+
 hr {
-    width: 100%;
+    width: 100%;             
+}
+
+.card {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 10px;
+  border: 1px solid purple;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #1f1b2e;
+  color: #e0b8ff;
+  overflow: hidden; 
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+}
+
+.inner_card_switcher {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 700px;
+  margin: 20px auto;
+  gap: 20px;
+}
+
+.inner_card_switcher button {
+  padding: 10px 30px;
+  border: 1px solid purple;
+  background: transparent;
+  color: #d37aff;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.inner_card_switcher button:hover {
+  background: purple;
+  color: white;
+}
+.card {
+  width: 400px;         
+  height: 250px;     
+  margin: 0 auto;        
+  border: 1px solid purple;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;       
+  justify-content: center;
+  align-items: center;
+  background-color: #1f1b2e;
+}
+
+.card img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;    
+  border-radius: 10px;
 }

@@ -1,124 +1,143 @@
+
 * {
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    padding: 0; 
+    box-sizing: border-box; 
 }
 
+
 .container {
-    width: 1200px;
-    margin: 0 auto;
+    width: 1200px; 
+    margin: 0 auto; 
 }
+
 
 body {
     font-family: "Britannic Bold", sans-serif;
-    background: #c2d0d0;
+    background: #c2d0d0; 
 }
+
 
 .btn {
     width: 250px;
-    height: 50px;
-    font-size: 20px;
-    cursor: pointer;
-    border: 1px solid var(--orange);
-    background: black;
-    color: var(--orange);
-    border-radius: 8px;
+    height: 50px; 
+    font-size: 20px; 
+    cursor: pointer; 
+    border: 1px solid var(--orange); 
+    background: rgb(27, 2, 39); 
+    color: var(--orange); 
+    border-radius: 8px; 
 }
+
 
 .btn:hover {
-    background: #414349;
+    background: #2a0031;
 }
 
+
 .btn:active {
-    background: #56585D;
+    background: #430150; 
     border: 2px solid var(--orange);
 }
+
 
 a {
     text-decoration: none;
 }
 
+
 li {
     list-style: none;
 }
 
+
 h1 {
     text-align: center;
-    font-size: 70px;
-    color: white;
-    margin: 0 auto;
-    text-transform: uppercase;
-    font-weight: 600;
+    font-size: 70px; 
+    color: rgb(240, 201, 255); 
+    margin: 0 auto; 
+    text-transform: uppercase; 
+    font-weight: 600; 
 }
+
 
 h2 {
     text-align: center;
     font-size: 30px;
-    color: white;
+    color: rgb(199, 85, 245);
     margin: 0 auto;
     text-transform: uppercase;
     font-weight: 600;
 }
+
 
 h3 {
     text-align: center;
     font-size: 30px;
-    color: white;
+    color: rgb(217, 122, 255);
     margin: 0 auto;
     text-transform: uppercase;
     font-weight: 600;
 }
 
+
 h4 {
     font-size: 24px;
-    color: white;
+    color: rgb(124, 75, 143);
     text-transform: uppercase;
     font-weight: 600;
 }
 
+
 strong {
-    color: #F79300;
+    color: #1c51c4; 
 }
+
 
 label {
     font-size: 24px;
     color: var(--orange);
 }
 
+
 input {
-    width: 350px;
-    height: 50px;
-    font-size: 20px;
-    padding-left: 5px;
+    width: 350px; 
+    height: 50px; 
+    font-size: 20px; 
+    padding-left: 5px; 
     color: var(--orange);
-    background: black;
-    border: 2px solid var(--orange);
+    background: rgb(12, 1, 15); 
+    border: 2px solid var(--orange); 
 }
 
+
 .checker {
-    color: white;
+    color: rgb(226, 148, 236);
     font-size: 30px;
 }
 
+
 .btn-slide {
-    display: block;
+    display: block; 
     width: 100px;
     height: 100px;
     background: var(--orange);
-    color: black;
+    color: rgb(7, 0, 6);
     font-size: 20px;
-    text-transform: uppercase;
-    border-radius: 50%;
-    font-weight: 800;
-    z-index: 1;
+    text-transform: uppercase; 
+    border-radius: 50%; 
+    font-weight: 800; 
+    z-index: 1; 
 }
+
 
 .btn-slide:hover {
-    background: #b68733 !important;
+    background: #0e0311 !important; 
     cursor: pointer;
-    color: white;
+    color: rgb(176, 156, 250); 
 }
 
+
 :root {
-    --orange: orange
+    --orange: rgb(212, 0, 255);
 }
